@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+void main(){
+double a;   //degree base
+int n;      // exponent
+double N=0; // degree
+
+cout << "Enter the number to be raised to base power: "; cin >> a;
+cout << "Enter exponent: "; cin >> n;
+
+  while (n!=0){
+      n /= a;
+      N++;
+  }
+  cout << N << endl;
+}
